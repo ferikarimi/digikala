@@ -34,6 +34,8 @@ class Product:
     def __hash__(self):
         return super().__hash__()
 
+    def __str__(self) :
+        return f"name : {self.name}"
 
 class User:
     def __init__(self, username):
